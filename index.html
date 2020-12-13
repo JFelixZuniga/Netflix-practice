@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-50x50.png">
-  <title>Leonidas Esteban | Recreando Netflix</title>
-  <style>
-    .credits {
-      font-family: system-ui;
-      background: #212429;
-      font-size: 11px;
-      color: white;
-      padding: 0.5rem 0;
-      text-align: center;
-    }
-    .credits a {
-      color: #F865B0;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-50x50.png"
+    />
+    <link rel="stylesheet" href="./static/css/styles.css" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./images/logo-netflix.png" height="30" alt="Logo Netflix" />
+      <nav>
+        <ul class="navigation">
+          <li class="navigation-item"><a href="#"></a>Series</li>
+          <li class="navigation-item"><a href="#"></a>Películas</li>
+          <li class="navigation-item"><a href="#"></a>Mi lista</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="featured">
+      <video height="500" src="./images/matrix.mp4"></video>
+      <div class="featured-details">
+        <ul class="tags">
+          <li class="tag">Surrealista</li>
+          <li class="tag">Distópico</li>
+          <li class="tag">Hábil</li>
+          <li class="tag">Siniestro</li>
+          <li class="tag">Emocionante</li>
+        </ul>
+        <div class="featured-actions"> 
+          <button class="button-secondary plus">Mi lista</button>
+        <button class="button play">Reproducir</button>
+        <button class="button-secondary info">Info</button>
+      </div>
+    </div>
 
-  Series
-  Películas
-  Mi lista
-
-  Surrealista
-  Distópico
-  Hábil
-  Siniestro
-  Emocionante
-
-  Mi lista
-  Reproducir
-  Info
-
+  <!-- 
   Populares en Netflix
   Series japonesas anime
   Series de EE.UU. sobre crimenes
@@ -43,11 +48,14 @@
   Inicio
   Próximamente
   Buscar
-  Descargas
+  Descargas 
+-->
 
-  <div class="credits">
-    Diseñado con 💗 por
-    <a href="https://leonidasesteban.com/" target="_blank">leonidasesteban.com</a>
-  </div>
-</body>
+    <!-- <div class="credits">
+      Diseñado con 💗 por
+      <a href="https://leonidasesteban.com/" target="_blank"
+        >leonidasesteban.com</a
+      >
+    </div> -->
+  </body>
 </html>
